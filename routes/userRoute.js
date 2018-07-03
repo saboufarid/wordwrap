@@ -6,7 +6,7 @@ let router = express.Router();
 function getJsonErr(err) {
   return {
     error: {
-      message: "Erreur: " + err
+      message: err
     }
   };
 }
